@@ -1,0 +1,10 @@
+export const integrations = [
+  { id: "threat-intelligence", name: "Threat Intelligence", vendors: ["Qualys", "Radiflow", "Recorded Future", "Reftab", "Remediant", "SafeBreach", "SentinelOne", "Silverfort", "Snowflake", "Splunk", "Tanium", "ThreatQuotient", "Trellix", "Vectra", "VirusTotal"] },
+  { id: "cspm", name: "CSPM", vendors: ["Wiz", "Orca Security", "Palo Alto Networks Prisma Cloud", "Check Point CloudGuard", "Microsoft Defender for Cloud", "AWS Security Hub", "Google Security Command Center", "Tenable Cloud Security", "Rapid7 InsightCloudSec", "Qualys TotalCloud", "CrowdStrike Falcon Cloud Security", "Lacework FortiCNAPP", "Aqua Security", "Zscaler Posture Control"] },
+  { id: "email-security", name: "Email Security", vendors: ["Kubernetes", "1Password", "Samurai XDR", "Trend Micro", "Zscaler", "Zix", "Wiz", "Votiro", "VMRay", "Veeam", "Tines", "Tenable", "Sumo Logic", "Symantec", "Slack"] },
+  { id: "cnapp", name: "CNAPP", vendors: ["HackerOne", "Honeywell", "IBM", "Joe Sandbox", "JupiterOne", "Kivera", "LogRhythm", "Mandiant", "Micro Focus", "Mimecast", "Netskope", "OCSF", "Oracle", "PagerDuty", "PingOne"] },
+  { id: "it-operations", name: "IT Operations", vendors: ["AlienVault", "Analyst1", "Aqua Security", "Aruba", "AT&T", "AttackIQ", "Automox", "BlackBerry", "Box", "Cisco", "Cribl", "CrowdStrike", "CyberArk", "CyCognito", "Cylus"] },
+  { id: "soar", name: "SOAR", vendors: ["BeyondTrust", "Auth0", "Atlassian", "At-Bay", "Armis", "Anomali", "Amazon", "Alien Labs OTX", "AbuseIPDB", "42Gears", "AIMS"] },
+  { id: "siem", name: "SIEM", vendors: ["BlueCat Networks", "Check Point", "Cloudflare", "Criminal IP", "Cybereason", "Darktrace", "Docker", "Exabeam", "F5 Distributed Cloud Services", "Forescout", "Graylog", "HashiCorp", "HP", "Infoblox", "JumpCloud"] },
+  { id: "cloud-security", name: "Cloud Security", vendors: ["Keeper Security", "Lacework", "Malwarebytes", "Mattermost", "Microsoft", "MISP TIP", "OAuth", "Okta", "Orca Security", "Palo Alto Networks", "Prometheus"] },
+];
